@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_br" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#faf5ff"/>
+      <stop offset="100%" stop-color="#f3e8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bg_br)"/>
+  <circle cx="200" cy="160" r="90" fill="#e9d5ff" stroke="#9333ea" stroke-width="4"/>
+  <!-- Toast & Roti -->
+  <path d="M 150 140 C 150 120 180 120 200 120 C 220 120 240 120 240 140 L 235 190 L 155 190 Z" fill="#d97706" stroke="#92400e" stroke-width="3"/>
+  <ellipse cx="210" cy="175" rx="35" ry="25" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+  <text x="200" y="45" font-family="sans-serif" font-weight="bold" font-size="20" fill="#581c87" text-anchor="middle">Bread, Roti &amp; Crusts</text>
+  <text x="200" y="275" font-family="monospace" font-size="14" fill="#6b21a8" text-anchor="middle">Sample Vision Dataset: Bread</text>
+</svg>

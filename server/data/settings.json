@@ -1,0 +1,60 @@
+{
+  "currency": "₹",
+  "categories": [
+    {
+      "id": "rice",
+      "name": "Rice",
+      "costPerKg": 45,
+      "color": "#f59e0b",
+      "description": "Leftover cooked rice, biryani, fried rice"
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "costPerKg": 35,
+      "color": "#10b981",
+      "description": "Cooked curries, chopped peels, salads"
+    },
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "costPerKg": 60,
+      "color": "#ec4899",
+      "description": "Fruit rinds, leftover slices, damaged fruits"
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "costPerKg": 50,
+      "color": "#8b5cf6",
+      "description": "Roti, naan, toast, bakery leftovers"
+    },
+    {
+      "id": "meat",
+      "name": "Meat",
+      "costPerKg": 180,
+      "color": "#ef4444",
+      "description": "Chicken, fish, beef trimmings, bones with meat"
+    },
+    {
+      "id": "other",
+      "name": "Other food waste",
+      "costPerKg": 30,
+      "color": "#6b7280",
+      "description": "Mixed gravies, sauces, tea leaves, unidentified"
+    }
+  ],
+  "iotSettings": {
+    "sensorMode": "simulated",
+    "sensorIp": "192.168.1.120",
+    "port": 8080,
+    "tareOffset": 0,
+    "calibrationFactor": 420.5,
+    "lastHeartbeat": "2026-11-15T17:32:10.411Z"
+  },
+  "kitchenProfile": {
+    "facilityName": "Central Cafeteria - Kitchen A",
+    "managerName": "Kitchen Manager",
+    "dailyWasteTargetKg": 15
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_veg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#dcfce7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bg_veg)"/>
+  <circle cx="200" cy="160" r="90" fill="#bbf7d0" stroke="#16a34a" stroke-width="4"/>
+  <!-- Broccoli and vegetable trimmings -->
+  <path d="M 170 150 Q 150 120 180 110 Q 210 100 230 120 Q 250 140 230 160 Z" fill="#22c55e" stroke="#15803d" stroke-width="3"/>
+  <circle cx="165" cy="180" r="22" fill="#ef4444" stroke="#b91c1c" stroke-width="2"/> <!-- Tomato cut -->
+  <path d="M 210 170 L 250 195 L 235 205 L 195 180 Z" fill="#f97316" stroke="#c2410c" stroke-width="2"/> <!-- Carrot slice -->
+  <text x="200" y="45" font-family="sans-serif" font-weight="bold" font-size="20" fill="#14532d" text-anchor="middle">Vegetable Prep Waste &amp; Curries</text>
+  <text x="200" y="275" font-family="monospace" font-size="14" fill="#166534" text-anchor="middle">Sample Vision Dataset: Vegetables</text>
+</svg>

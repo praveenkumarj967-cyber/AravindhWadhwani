@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bg)"/>
+  <circle cx="200" cy="160" r="90" fill="#fde68a" stroke="#d97706" stroke-width="4"/>
+  <ellipse cx="200" cy="155" rx="75" ry="60" fill="#ffffff" stroke="#fcd34d" stroke-width="2"/>
+  <!-- Rice grains -->
+  <g fill="#fef08a" stroke="#d97706" stroke-width="1.5">
+    <ellipse cx="180" cy="140" rx="9" ry="4" transform="rotate(20 180 140)"/>
+    <ellipse cx="210" cy="145" rx="9" ry="4" transform="rotate(-30 210 145)"/>
+    <ellipse cx="195" cy="165" rx="9" ry="4" transform="rotate(45 195 165)"/>
+    <ellipse cx="220" cy="170" rx="9" ry="4" transform="rotate(-15 220 170)"/>
+    <ellipse cx="170" cy="160" rx="9" ry="4" transform="rotate(70 170 160)"/>
+    <ellipse cx="190" cy="180" rx="9" ry="4" transform="rotate(-40 190 180)"/>
+    <ellipse cx="225" cy="135" rx="9" ry="4" transform="rotate(10 225 135)"/>
+  </g>
+  <text x="200" y="45" font-family="sans-serif" font-weight="bold" font-size="20" fill="#92400e" text-anchor="middle">Cooked Rice Leftover</text>
+  <text x="200" y="275" font-family="monospace" font-size="14" fill="#b45309" text-anchor="middle">Sample Vision Dataset: Rice</text>
+</svg>
